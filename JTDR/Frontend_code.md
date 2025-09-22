@@ -1,3 +1,8 @@
+Location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/cnr-manager 
+name of the file : cnr-manager-component.html
+
+
+
 <div class="container p-4">
   <!-- Search Section -->
   <div class="row mb-4">
@@ -375,6 +380,8 @@
 
 
 
+Location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/cnr-manager 
+name of the file : cnr-manager-component.scss
 
 
 
@@ -504,6 +511,8 @@ to {
 
 
 
+Location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/cnr-manager 
+name of the file : cnr-manager-component.ts
 
 
 
@@ -1269,6 +1278,8 @@ export class CnrService {
 
 
 
+Location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/
+name of the file : app-router.ts
 
 
 
@@ -1642,7 +1653,8 @@ export const APP_ROUTING_SCROLL_CONF: InMemoryScrollingOptions = {
 
 
 
-
+Location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/shared/auth-nav-menu/user-menu
+Name of the file : user-menu.component.html
 
 
 
@@ -1684,6 +1696,9 @@ export const APP_ROUTING_SCROLL_CONF: InMemoryScrollingOptions = {
 </ul>
 
 
+
+Location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/shared/auth-nav-menu/user-menu
+Name of the file : user-menu.component.ts
 
 
 import {

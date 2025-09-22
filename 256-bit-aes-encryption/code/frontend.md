@@ -1,3 +1,6 @@
+Location of the file : /Dspace_Latest/dspace_frontend_latest-main/src/app/core
+Name of the file : pdf-auth.service.ts
+
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
@@ -64,7 +67,8 @@ export class PdfService {
 }
 
 
-
+Location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/item-page/simple/field-components/view-file-pdf
+Name of the file : viewer.component.ts
 
 
 @Component({
@@ -118,6 +122,8 @@ export class PdfService {
 
 
 
+Location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/item-page/simple/field-components/view-file-pdf
+Name of the file : viewer.component.html
 
 
 
@@ -170,6 +176,9 @@ export class PdfService {
         </div>
 
 
+
+Location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/item-page/simple/field-components/view-file-pdf
+Name of the file : viewer.module.ts
 
 
 import { NgModule } from "@angular/core"

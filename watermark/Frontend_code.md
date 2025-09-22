@@ -1,3 +1,8 @@
+location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/admin-pannel
+name of the file : admin-pannel.component.ts
+
+
+
 import type { InMemoryScrollingOptions, Route, RouterConfigOptions } from "@angular/router"
 
 import { NOTIFICATIONS_MODULE_PATH } from "./admin/admin-routing-paths"
@@ -158,6 +163,12 @@ export class AdminPannelComponent implements OnDestroy {
   }
 }
 
+
+location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/admin-pannel
+name of the file : admin-pannel.module.ts
+
+
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -175,6 +186,11 @@ import { AdminPannelComponent } from './admin-pannel.component';
   exports: [AdminPannelComponent] 
 })
 export class AdminPannelModule {}
+
+
+
+location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/admin-pannel
+name of the file : admin-pannel.service.ts
 
 
 
@@ -207,6 +223,8 @@ export class WatermarkApiService {
 }
 
 
+location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/admin-pannel
+name of the file : admin-pannel.component.scss
 
 
 
@@ -268,6 +286,8 @@ export class WatermarkApiService {
 }
 
 
+location of the file : Dspace_Latest/dspace_frontend_latest-main/src/app/admin-pannel
+name of the file : admin-pannel.component.html
 
 
 <div class="watermark-page container py-4">

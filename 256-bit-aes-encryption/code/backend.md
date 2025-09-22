@@ -1,3 +1,9 @@
+Location of the file : dspace_backend_latest-main/dspace-server-webapp/src/main/java/org/dspace/app/rest/diracai/controller
+
+name of the file : EncryptedBitstreamController.java
+
+
+
 package org.dspace.app.rest.diracai.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
@@ -76,71 +82,6 @@ public class EncryptedBitstreamController {
     private ConfigurationService configurationService;
 
     private static final Logger log = LoggerFactory.getLogger(EncryptedBitstreamController.class);
-
-//
-//    @PostMapping("/encrypt-bitstream")
-//    public ResponseEntity<InputStreamResource> encryptAndReturnPdf(
-//            @RequestBody EncryptRequest request, HttpServletRequest servletRequest) {
-//
-//        System.out.println("Received request to encrypt bitstream: " + request.getBitstreamId());
-//
-//        Context context;
-//        try {
-//            context = contextService.getContext();
-//            System.out.println("DSpace context acquired.");
-//        } catch (ContextServiceException e) {
-//            System.err.println("Failed to get DSpace context.");
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//
-//        Bitstream bitstream;
-//        try {
-//            bitstream = bitstreamService.findByIdOrLegacyId(context, request.getBitstreamId());
-//            if (bitstream != null) {
-//                System.out.println("Bitstream found: " + bitstream.getName() + ", ID: " + bitstream.getID());
-//            } else {
-//                System.err.println("Bitstream not found for ID: " + request.getBitstreamId());
-//                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
-//            }
-//        } catch (SQLException e) {
-//            System.err.println("Error retrieving bitstream.");
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//
-//        InputStream originalStream;
-//        try {
-//            System.out.println("Logging file access...");
-//            try {
-//                context = ContextUtil.obtainContext(servletRequest);
-//                fileAccessLogger.logAccess(context, bitstream.getID(), "DOWNLOAD", servletRequest);
-//            } catch (Exception e) {
-//                log.error("Failed to log file access", e);
-//            }
-//            System.out.println("Retrieving bitstream content...");
-//            originalStream = bitstreamStorageService.retrieve(context, bitstream);
-//            System.out.println("Bitstream retrieved successfully.");
-//
-//            System.out.println("Encrypting bitstream...");
-//            byte[] encryptedBytes = AESUtil.encrypt(originalStream, "your-256-bit-secret-password");
-//            System.out.println("Encryption complete. Encrypted bytes length: " + encryptedBytes.length);
-//
-//            InputStream encryptedStream = new ByteArrayInputStream(encryptedBytes);
-//
-//            System.out.println("Sending encrypted file as response...");
-//            return ResponseEntity.ok()
-//                    .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"encrypted.bin\"")
-//                    .contentType(MediaType.APPLICATION_OCTET_STREAM)
-//                    .body(new InputStreamResource(encryptedStream));
-//
-//        } catch (Exception e) {
-//            System.err.println("Exception occurred during bitstream encryption or streaming.");
-//            e.printStackTrace();
-//            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
-//        }
-//    }
-
 
     @PostMapping("/encrypt-bitstream")
     public ResponseEntity<InputStreamResource> encryptAndReturnPdf(@RequestBody EncryptRequest request,
