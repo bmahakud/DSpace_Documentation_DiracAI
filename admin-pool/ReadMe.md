@@ -227,7 +227,7 @@ public class BulkUploadRequestRestController {
 }
 
 
-
+```
 
 `dspace_backend_latest-main/dspace-server-webapp/src/main/java/org/dspace/app/rest/diracai/service/BulkUploadRequestService.java`
 
