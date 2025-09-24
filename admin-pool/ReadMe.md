@@ -98,10 +98,11 @@ you can follow this code for backend implementation
 
 
 
-// dspace_backend_latest-main/dspace-server-webapp/src/main/java/org/dspace/app/rest/diracai/controller/BulkUploadRequestRestController.java
+`dspace_backend_latest-main/dspace-server-webapp/src/main/java/org/dspace/app/rest/diracai/controller/BulkUploadRequestRestController.java`
 
 
 
+```ts
 
 package org.dspace.app.rest.diracai.controller;
 
@@ -228,7 +229,10 @@ public class BulkUploadRequestRestController {
 
 
 
-// dspace_backend_latest-main/dspace-server-webapp/src/main/java/org/dspace/app/rest/diracai/service/BulkUploadRequestService.java
+`dspace_backend_latest-main/dspace-server-webapp/src/main/java/org/dspace/app/rest/diracai/service/BulkUploadRequestService.java`
+
+
+```ts
 
 
 package org.dspace.app.rest.diracai.service;
@@ -256,7 +260,7 @@ public interface BulkUploadRequestService {
 
 
 
-// dspace_backend_latest-main/dspace-server-webapp/src/main/java/org/dspace/app/rest/diracai/service/impl/BulkUploadRequestServiceImpl.java
+`dspace_backend_latest-main/dspace-server-webapp/src/main/java/org/dspace/app/rest/diracai/service/impl/BulkUploadRequestServiceImpl.java`
 
 
 package org.dspace.app.rest.diracai.service.impl;
