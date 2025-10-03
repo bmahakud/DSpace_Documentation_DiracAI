@@ -28,6 +28,19 @@ The **Admin-Pool** feature is designed to manage batch files and control their a
 You can follow this code for frontend implementation
 
 
+Step-1:
+
+-  You need to make changes to this code (app-routes.ts).
+-  The location of the code the dspace front-end can be found at dspace_frontend_latest-main/src/app/app-routes.ts`
+
+-  You need to add the following block of code so that the button will be added and corresponding fucntionality. The folowing new block of code has to be added
+
+   " ...."
+   
+  -  The complete code and file is located at this   
+
+
+
 
 
 
