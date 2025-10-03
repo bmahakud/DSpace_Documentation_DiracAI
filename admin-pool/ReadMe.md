@@ -28,7 +28,7 @@ The **Admin-Pool** feature is designed to manage batch files and control their a
 You can follow this code for frontend implementation
 
 
-Step-1:
+#  Step-1:
 
 -  You need to make changes to this code (app-routes.ts).
 -  The location of the code the dspace front-end can be found at dspace_frontend_latest-main/src/app/app-routes.ts`
@@ -37,7 +37,7 @@ Step-1:
 
    " ...."
    
-  -  The complete code and file is located at this   
+  -  The complete code and file is located at this   https://github.com/DSpace_Documentation_DiracAI/admin-pool/codes/app-routes.ts
 
 
 
